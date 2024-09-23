@@ -1,0 +1,272 @@
+.main{
+    display: flex;
+    margin-top: 90px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+body{
+    margin: 0 0 0 0;
+}
+p{
+    margin: 0;
+}
+.hero{
+    width:400px
+}
+.about{
+    font-family: Roboto;
+    margin-left: 43px;
+}
+.first-line{
+    font-size: 23px;
+    color: white;
+    background-color: rgb(15, 195, 15);
+    display: inline-block;
+    margin-bottom: 16px;
+    padding: 7px 7px 7px 7px;
+}
+.second-line{
+    font-size: 40px;
+    width:199px ;
+    font-weight: bold;
+    background-color: lightpink;
+    margin-bottom: 1px;
+    padding: 24px 19px 24px 19px;
+    line-height: 0.5px;
+}
+.second-linee{
+    font-size: 40px;
+    width:270px;
+    font-weight: bold;
+    background-color: lightpink;
+    margin-bottom: 1px;
+    padding: 24px 19px 24px 19px;
+    line-height: 0.5px;
+}
+.third-line{
+    color: rgb(218, 177, 14);
+    width: 200px;
+    margin-top: 16px;
+    margin-bottom: 55px;
+}
+.explore{
+    color: black;
+    background-color: rgb(255, 255, 26);
+    padding: 10px 10px 10px 10px;
+    border-radius: 3px;
+    transition: opacity 0.15s;
+    border: none;
+    cursor: pointer;
+}
+.explore:hover{
+    background-color: rgb(239, 239, 87);
+}
+.features{
+    display: flex;
+    flex-direction: row;
+    margin-left: 170px;
+}
+.first{
+    display: grid;
+    grid-template-columns:90px 180px ;
+    margin-right: 18px;
+    transition: 0.15s;
+    margin-bottom: 70px;
+}
+.first:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.45);
+}
+.img{
+    width:80px;
+    height: 80px;
+    object-fit: cover;
+}
+.heading{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Roboto;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.detail{
+    font-family: Roboto;
+    font-size: 13px;
+}
+.Menu{
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    margin-bottom: 45px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    margin-left: 290px;
+    column-gap: 3px;
+    row-gap: 3px;
+}
+.dish{
+    position: relative;
+    display: inline;
+}
+.dish-img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+.about-dish{
+    position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 55px;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+.star-dish{
+    position: absolute;
+    right:0;
+    top:0;
+    height: 15px;
+    color: black;
+    background-color:lightcoral;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.about-dish:hover{
+    opacity: 1;
+}
+.more-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    column-gap: 15px;
+    margin-bottom: 85px;
+}
+.to-slide{
+    width:60px;
+    border-radius: 3px;
+    background-color: green;
+    color: white;
+    font-family: Roboto;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
+}
+.footer{
+   bottom: 0;
+   left: 0;
+    right: 0;
+    background-color: lightgreen;
+    color: black;
+    height:130px;
+    display: flex;
+    justify-content:center;
+    align-items: top;
+    flex-direction: row;
+   column-gap: 75px;
+   row-gap: 75px;
+}
+.address{
+    width: 350px;
+}
+.address1{
+    width:200px;
+}
+.address2{
+    width: 100px;
+}
+.address-detail{
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.about-address{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cta-btn {
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    background-color: crimson;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .modal-container {
+    background-color: rgba(0, 0, 0, 0.6);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .modal {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    width: 400px;
+    margin-top: 41px;
+  }
+  
+  .modal-content {
+    padding: 20px;
+  }
+  
+  .modal-form div {
+    margin: 20px 0;
+  }
+  
+  .modal-form label {
+    display: block;
+    margin-bottom: 6px;
+  }
+  
+  .modal-form .form-input {
+    padding: 8px;
+    width: 100%;
+  }
+  
+  .close-btn {
+    background: transparent;
+    border: none;
+    font-size: 25px;
+    position: absolute;
+    top: 5px;
+    right: 12px;
+    cursor: pointer;
+  }
+  
+  .modal-container .submit-btn {
+    padding: 10px 30px;
+    font-weight: bold;
+    background: crimson;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  
+  
+  /* JavaScript */
+  .modal-container.show-modal {
+    display: block;
+  }
