@@ -3,10 +3,6 @@ document.addEventListener('DOMContentLoaded', function () {
   const openModalBtn = document.getElementById("open");
   const closeModalBtn = document.getElementById("close");
   const form = document.querySelector('.modal-form');
-  const prevButton = document.querySelector('.to-slide:first-of-type');
-  const nextButton = document.querySelector('.to-slide:last-of-type');
-  const grid = document.querySelectorAll('.grid');
-  let currentGrid = 0;
 
   // Function to open the modal
   openModalBtn.addEventListener("click", function () {
